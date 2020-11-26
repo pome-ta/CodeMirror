@@ -1,3 +1,7 @@
+"""
+Pythonista3 app CodeMirror
+"""
+
 import pythonista.wkwebview as wkwebview
 import ui
 import pathlib
