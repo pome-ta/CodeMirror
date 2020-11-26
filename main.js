@@ -1,3 +1,10 @@
-'use strict';
+"use strict";
+//console.log('main.js');
+import CodeMirror from './src/codemirror.js'
 
-console.log('hoge');
+
+let myCodeMirror = CodeMirror(document.body, {
+ value: "1loO0\nぴよよよ 😂",
+ lineNumbers: true,
+ }
+);
