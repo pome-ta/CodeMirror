@@ -9,10 +9,9 @@ import pathlib
 uri = pathlib.Path('./main_index.html')
 
 
-
 class View(ui.View):
   def __init__(self):
-    self.wv = wkwebview.WKWebView(swipe_navigation=False, flex='WH')
+    self.wv = wkwebview.WKWebView(flex='WH')
     self.wv.load_url(str(uri))
     self.add_subview(self.wv)
 
